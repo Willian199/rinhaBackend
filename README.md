@@ -26,7 +26,7 @@ Variações de Testes:
 
 Realizei testes com as configurações dentro das especificas e com valores maiores, porém em praticamente todos os casos, os resutlados foram muito semelhantes.
 Indicando a existencia de algum gargalo na aplicação, visto que ela não escala, mesmo com mais recursos disponiveis.
-Inclusive pode se identificar que as primeiras 26 mil requisições ocorrem sem erro, porém a parti desse momento, a quantida de usuários aumenta muito e aplicação simplesmente morre.
+Inclusive pode se identificar que as primeiras 26 mil requisições ocorrem sem erro, porém a partir desse momento, a quantida de usuários aumenta muito e aplicação simplesmente morre.
 
 Primeiro Teste
  - Banco com 0.6 CPU e 1.6 GB RAM:
@@ -64,6 +64,7 @@ Quarto Teste
  - Requisições totais 47456, dessas 31672 foram executadas com sucesso
  - Regsitros salvos no banco: 12342
  - Foi utilizado o Quarkus na versão 3.2.5, porém apresentou o mesmo gargalo.
+  - Usando o Quarkus 3.1.0 gerou praticamente os mesmos resultados.
 
-
+Considerando que outros participantes conseguiram resultados melhores, mesmo usando postgresql e NGix, pode-se assumir que o Quarkus está sendo o causador do gargalo.
 
