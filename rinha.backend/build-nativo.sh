@@ -1,0 +1,2 @@
+./mvnw clean package -DskipTests -Dnative -Dquarkus.native.container-build=true -Dquarkus.native.builder-image=quay.io/quarkus/ubi-quarkus-mandrel-builder-image:jdk-20
+docker build -f src/main/docker/Dockerfile.native-micro -t quay.io/will/quarkus-app .
