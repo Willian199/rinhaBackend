@@ -3,16 +3,19 @@
 Projeto desenvolvido para comparar desempenho com outroas linguagens.
 
 Projetos usados como base:
+
 https://github.com/brunoborges/rinha-backend-2023-q3-java
+
 https://github.com/viniciusfcf/rinha-de-backend-2023-q3
 
 Seguindo as caracterisiticas propostas pelo desafio
+
 https://github.com/zanfranceschi/rinha-de-backend-2023-q3
 
-Utilizar o NGINx como Load Balancer;
-2 APIs no mesmo servidor;
-Banco Postgresql
-Limitado a 3GB de RAM e 1.5 CPU
+- Utilizar o NGINx como Load Balancer;
+- 2 APIs no mesmo servidor;
+- Banco Postgresql
+- Limitado a 3GB de RAM e 1.5 CPU
 
 Porém, utilizei o docker instalado na minha máquina, com isso pode ter uma variação devido ao meu processador (AMD Ryzen R5 3600) ser diferente dos processadores usados nos testes;
 
