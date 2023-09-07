@@ -64,6 +64,9 @@ Quarto Teste
  - Requisições totais 47456, dessas 31672 foram executadas com sucesso
  - Regsitros salvos no banco: 12342
  - Foi utilizado o Quarkus na versão 3.2.5, porém apresentou o mesmo gargalo.
+  - Usando o Quarkus 3.1.0 gerou praticamente os mesmos resultados.
+
+Considerando que outros participantes conseguiram resultados melhores, mesmo usando postgresql e NGix, pode-se assumir que o Quarkus está sendo o causador do gargalo.
 
 
 
